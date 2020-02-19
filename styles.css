@@ -103,6 +103,10 @@ font-family: 'Century Gothic', sans-serif;
 font-weight: bold;
 }
 
+#showcase img{
+   margin-bottom: 60px;
+}
+
 .fa-chart-line{
   color: #007bff;
 }
