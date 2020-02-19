@@ -1,0 +1,293 @@
+body{
+   font-family: 'Century Gothic', sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+
+/* Utilities */
+
+.btn-custom{
+  border: none;
+   background-color: #0044b5;
+   padding: 10px 30px;
+   color: white;
+   transition: .5s background-color ease;
+}
+
+.btn-custom:hover{
+  background-color: #007bff;
+}
+
+.thumbnail{
+    box-shadow: 5px 5px 5px 0px #545454;
+}
+
+.paragraph{
+  color: #636363 !important;
+}
+
+
+
+/* Navbar */
+
+.navbar{
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-item{
+  padding: 5px 10px;
+}
+
+/* Heading */
+
+#heading{
+  background-image: url("background.jpg"); /* The image used */
+  background-color: #2e6896; /* Used if the image is unavailable */ /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: auto;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px black;
+  padding: 150px 0;
+}
+
+.heading-box{
+  animation-name: heading;
+  animation-duration: 2s;
+}
+
+@keyframes heading{
+  from{opacity: 0; padding-left: 200px};
+  to{opacity: 100%; padding-left: 0;}
+}
+
+.heading-box h1{
+  font-size: 4rem;
+  font-weight: bold;
+    transition: .5s font-size ease;
+}
+
+.heading-box h1:hover{
+   font-size: 4.5rem;
+}
+
+.heading-box h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: .5s font-size ease;
+}
+
+.heading-box h2:hover{
+  font-size: 3.5rem;
+}
+
+/* Showcase */
+
+#showcase{
+  padding: 100px 0;
+  text-align: center;
+}
+
+#showcase h1, h3{
+font-family: 'Century Gothic', sans-serif;
+font-weight: bold;
+}
+
+.fa-chart-line{
+  color: #007bff;
+}
+
+.chart-box{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.tick-paragraph{
+  display: inline;
+  padding-left: 20px;
+}
+
+.tick-box{
+  padding: 20px 0;
+}
+
+.fa-check-square{
+  color: #3e9bff;
+}
+
+/* Marketing */
+
+#marketing{
+  background-image: url("background2.jpg"); /* The image used */
+  background-color: #2e6896; /* Used if the image is unavailable */ /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: auto;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.marketing-box{
+  padding: 50px;
+}
+
+.marketing-box h1{
+  font-size: 4rem
+}
+
+/* Benefits */
+
+#benefits{
+  padding: 150px 0;
+ text-align: center;
+}
+
+#benefits h1{
+  margin-bottom: 100px;
+  font-size: 4rem;
+}
+
+.benefits-icon{
+  padding: 10px;
+  color: #3784d6;
+}
+
+.benefits-box{
+   background-clip: padding-box;
+  border: 10px solid transparent;
+  background-color: #dedede;
+  padding: 15px;
+  transition: .3s border ease, .3s color ease, .3s background-color ease;
+}
+
+.benefits-box:hover{
+  border: 2px solid transparent;
+  color: #007bff;
+  background-color:#cfe6ff;
+}
+
+.fa-edit{
+  margin-bottom: 100px;
+  color: #007bff;
+  padding-left: 50px;
+}
+
+/* Contact */
+
+
+#contact{
+  background-image: url("background3.jpg"); /* The image used */
+  background-color: #2e6896; /* Used if the image is unavailable */ /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: auto;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+#contact h1{
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.form-box{
+}
+
+.form-box input{
+}
+
+.form-box input[type=text]{
+   width: 60%;
+   margin-bottom: 20px;
+}
+.form-box input[type=textarea]{
+   width: 100%;
+   height: 150px;
+   margin-bottom: 20px;
+}
+
+#contact h5{
+  margin-bottom: 10px;
+}
+
+.pre-form-box{
+  padding: 20px 0 50px;
+}
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  padding: 150px 0;
+}
+
+.testimonial-box{
+}
+
+.testimonial{
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.testimonial-box h1{
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.testimonial-box .quote-icon-large{
+  color: #007bff;
+  margin-bottom: 100px;
+}
+
+.quote-icon-small{
+  color: #95c8ff;
+  margin: 20px 0;
+}
+
+#testimonials img{
+  transition: .3s opacity ease;
+}
+
+#testimonials img:hover{
+     opacity: 0.7;
+}
+
+/* Footer */
+
+footer{
+  padding: 100px 0;
+  background-color: #173e5d;
+  color: white;
+    box-shadow: 0px 0px 5px 0px black;
+    text-align: center;
+}
+
+.footer-menu{
+}
+
+.footer-link{
+  color: white;
+  font-size: 1.2rem;
+  transition: .1s color ease;
+}
+
+.footer-link:hover{
+  text-decoration: none;
+  color: #95c8ff;
+}

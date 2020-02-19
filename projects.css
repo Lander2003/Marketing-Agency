@@ -1,0 +1,33 @@
+/* Projects */
+
+#projects{
+  text-align: center;
+  padding: 100px 0;
+}
+
+#projects h1{
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+
+#projects img{
+  box-shadow: 5px 5px 5px 0px grey;
+}
+
+#projects h2{
+  margin-top: 60px;
+}
+
+.project-box{
+  background-color: #d2d2d2;
+  background-clip: padding-box;
+  padding: 50px 20px;
+ border: 10px solid transparent;
+ transition: .3s border ease, .3s color ease, .3s background-color ease;
+}
+
+.project-box:hover{
+  border: 2px solid transparent;
+  color: white;
+  background-color:#007bff;
+}

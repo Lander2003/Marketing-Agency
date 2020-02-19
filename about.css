@@ -1,0 +1,120 @@
+/* About us CSS */
+
+hr{
+  border: solid 3px #007bff;
+  width: 80px;
+  transition: .3s width ease;
+}
+
+hr:hover{
+  width: 150px;
+}
+
+#about-us{
+  padding: 150px 0 70px;
+  text-align: center;
+}
+
+#about-us .heading h1{
+  font-size: 4rem;
+}
+
+#about-us .heading  h2{
+  font-size: 2.3rem;
+  margin-bottom: 120px;
+}
+
+#about-us p{
+  margin-bottom: 70px;
+}
+
+.about-us-box{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.philosophy-box{
+  background-color: #e0e0e0;
+  padding: 60px 50px;
+  transition: .3s background-color ease;
+}
+
+.philosophy-box:hover{
+  background-color: #bbd8e8;
+}
+
+/* Icons */
+
+.about-icon{
+  color: #086bd4;
+  margin-bottom: 20px;
+  transition: .3s color ease;
+}
+
+.about-icon:hover{
+  color: #208cff;
+}
+
+/* Team */
+
+#our-team{
+  text-align: center;
+  padding: 0 0 100px;
+}
+
+#our-team h1{
+  font-size: 4rem;
+  margin-bottom: 100px;
+}
+
+#our-team i{
+  color: #086bd4;
+  padding: 10px 5px;
+  transition: .3s color ease;
+  cursor: pointer;
+}
+
+#our-team i:hover{
+     color: black;
+}
+
+.team-img{
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.team-box{
+  background-color: #dedede;
+  background-clip: padding-box;
+ border: 10px solid transparent;
+ padding: 20px;
+ transition: .3s border ease, .3s color ease, .3s background-color ease;
+}
+
+.team-box:hover{
+  border: 2px solid transparent;
+  color: #007bff;
+  background-color:#cfe6ff;
+}
+
+
+
+/* Clients */
+
+#clients{
+  padding: 50px 0 100px;
+  text-align: center;
+}
+
+#clients h1{
+   font-size: 4rem;
+   margin-bottom: 50px;
+}
+
+#clients img{
+  margin-bottom: 70px;
+}
+
+.clients-heading{
+  margin-bottom: 200px;
+}
